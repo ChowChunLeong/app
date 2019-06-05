@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:text="Function"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/PromptSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Please select a function" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioBtnDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" Delete conference paper"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioBtnUpdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Update conference paper info"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioBtnViewPDf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View conference paper"
+            android:textSize="18sp" />
+
+
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/radioBtnUpdateEditTextCPName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new conference paper"
+        android:textSize="18sp"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit" />
+
+    </LinearLayout>
+</LinearLayout>

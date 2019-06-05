@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CPaperPHP</string>
+    <string name="dialogtakepicture">Take Picture?</string>
+    <string name="dialogtakepicturea">Make sure to use your own picture</string>
+    <string name="yesbutton">Yes</string>
+    <string name="nobutton">No</string>
+    <string name="registerfor">Register for</string>
+    <string name="registerdialognew">Register new account</string>
+    <string name="registrationprocess">Registration in progress</string>
+</resources>
